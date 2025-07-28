@@ -1,50 +1,26 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "$schema": "https://altan.ai",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Altan",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "https://altan.ai/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Introduction",
         "groups": [
           {
             "group": "Getting started",
             "pages": [
-              "index",
+              "welcome",
               "quickstart",
               "development"
             ]
           },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
         ]
       },
       {
@@ -71,8 +47,8 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "anchor": "Platform",
+          "href": "https://altan.ai/",
           "icon": "book-open-cover"
         },
         {
@@ -80,23 +56,18 @@
           "href": "https://mintlify.com/community",
           "icon": "slack"
         },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "https://altan.ai/logos/horizontalBlack.png",
+    "dark": "https://altan.ai/logos/horizontalWhite.png"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:contact@altan.ai"
       }
     ],
     "primary": {
